@@ -1,0 +1,159 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+nav {
+  background-color: rgb(110, 100, 196);
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.BrandName {
+  margin-top: 0px;
+  color: white;
+}
+.BrandName img {
+  height: 45px;
+  width: 45px;
+  margin-left: 5px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  margin-top: 12px;
+}
+nav ul li {
+  color: #fdfdfd;
+  margin: 10px;
+
+  font-weight: 500;
+}
+nav ul li:hover {
+  color: #050505;
+  margin: 10px;
+}
+img {
+  width: 100%;
+}
+
+.banner {
+  background: url("");
+}
+
+.banner div {
+  position: absolute;
+  top: 19%;
+  left: 20px;
+  color: white;
+  font-size: 1.6em;
+}
+
+.service {
+  margin-top: 40px;
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.one {
+  height: 170px;
+  border-radius: 3px 3px 4px 4px;
+  flex: 1 1 200px;
+  text-align: center;
+  box-shadow: 0px 0px 3px 0px;
+  margin: 10px;
+}
+.container div i {
+  font-size: 80px;
+  color: rgb(85, 73, 194);
+  margin-top: 30px;
+}
+.container h3 {
+  margin-top: 10px;
+}
+
+footer ul li {
+  text-decoration: none;
+  display: inline;
+  color: white;
+  font-size: 45px;
+}
+.about {
+  margin: 50px 3px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card {
+  width: 290px;
+  box-shadow: 0px 0px 1px 0px;
+  height: 500px;
+  
+  margin: 0px 5px;
+  margin-left: 5px;
+}
+.card2 {
+  width: 590px;
+  box-shadow: 0px 0px 1px 0px;
+  margin: 0px 5px;
+  margin-left: 8%;
+  height: 400px;
+  text-align: center;
+}
+article {
+  margin: 7px;
+  padding: 4px;
+}
+footer {
+  margin-top: 15px;
+  border-radius: 7px 7px 0px 0px;
+  height: 50px;
+  display: flex;
+  background: #5549c2;
+  margin: auto;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.clients{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 40px;
+ 
+}
+.clients_one {
+  box-shadow:  0px 0px 2px 0px grey;
+  height: 290px;
+  width: 390px;
+  margin: 25px 20px;
+  flex: 1  1 390;
+}
+.clients_two {
+  box-shadow:  0px 0px 2px 0px grey;
+  height: 290px;
+  width: 300px;
+  margin: 25px 20px;
+  flex:1 1 390;
+}
+footer {
+ 
+  display: flex; 
+  justify-content: center;
+  
+}
+footer li {
+  margin: 0px 30px;
+  color: white;
+ list-style: none;
+ font-size: 36px;
+}
+footer  li :hover {
+  color: rgb(139, 240, 139);
+}
