@@ -22,16 +22,21 @@ nav {
   width: 45px;
   margin-left: 5px;
 }
-nav ul {
+.ul {
   display: flex;
   list-style: none;
   margin-top: 12px;
+  align-items: center;
+  font-size: 17px;
 }
-nav ul li {
+.ul a {
   color: #fdfdfd;
   margin: 10px;
+  text-decoration: none;
 
-  font-weight: 500;
+}
+.ul a:hover{
+      color: rgb(255, 209, 59);
 }
 nav ul li:hover {
   color: #050505;
@@ -106,6 +111,30 @@ footer ul li {
   margin-left: 8%;
   height: 400px;
   text-align: center;
+}
+@media only screen and (max-width : 479px){
+         .card{
+           width: 390px;
+           margin-bottom: 15px;
+         }
+         .card2{
+           width: 390px;
+           margin: 11px auto;
+          
+         }
+         .banner div{
+          top: 11%;
+          font-size:15px;
+          
+         }
+         
+}
+@media only screen and (max-width : 995px){
+  .banner div{
+    top: 9%;
+    font-size:15px;
+    
+   }
 }
 article {
   margin: 7px;
